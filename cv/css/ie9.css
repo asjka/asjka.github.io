@@ -1,0 +1,14 @@
+.level.fillInBeginner{
+	width: 33.3333%;
+	opacity: 1;
+}
+
+.level.fillInGood{
+	width: 66.6666%;
+	opacity: 1;
+}
+
+.level.fillInAdvanced{
+	width: 100%;
+	opacity: 1;
+}

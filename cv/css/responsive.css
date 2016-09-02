@@ -1,0 +1,145 @@
+@media (max-width: 1366px){
+	main{
+		margin-left: 50px;
+	}
+	
+	/*.content{
+		margin-left: 70px;
+	}*/
+	
+	header{
+		right: 50px;
+	}
+}
+
+@media (max-width: 1140px){
+	.page-background{
+		background-image: url(../images/fields.jpg);
+	}
+	.avatar{
+		display: block;
+	}
+}
+
+@media (max-width: 1023px){
+	/*.fixed-block{
+		left: 20px;
+	}*/
+	
+	main{
+		margin-left: 20px;
+	}
+	
+	header{
+		right: 20px;
+	}
+}
+
+@media (max-width: 767px){
+	main{
+		margin: 70px 10px 0;
+		float: none;
+		/*max-width: 600px;*/
+		width: auto;
+	}
+	
+	header{
+		position: absolute;
+		top: -55px;
+	}
+}
+
+@media (max-width: 640px){
+	.work-example{
+		width: 100%;
+	}
+}
+
+@media (max-width: 560px){
+	
+	h1.title{
+		font-size: 35px;
+		line-height: 35px;
+	}
+	
+	article h2{
+		margin-left: 20px;
+		margin-right: 20px;
+		font-size: 30px;
+		line-height: 30px;
+	}
+	
+	article h2 span{
+		padding: 0;
+		margin: 0;
+		background: none;
+		color: #0b6492;
+	}
+	
+	article h2:after{
+		content: none;
+	}
+	
+	article h3{
+		font-size: 25px;
+		line-height: 25px;
+	}
+	
+	.mobile-level-titles{
+		display: block;
+		/*position: absolute;*/
+		width: 100%;
+		top: 2px;
+		left: 0;
+		z-index: 10;
+	}
+	
+	.mobile-level-titles span.level-title{
+		/*color: #fff;*/
+		color: #ddd;
+		margin: 0;
+		/*border-color: #fff;*/
+		font-size: 11px;
+		line-height: 11px;
+	}
+	
+	.level{
+		height: 16px;
+		border-radius: 8px;
+		margin: 0 0 20px;
+	}
+	
+	table thead{
+		display: none;
+	}
+	
+	table{
+		/*display: table;*/
+		width: 100%;
+	}
+	
+	/*table,*/
+	table,
+	table th,
+	table tbody,
+	tbody thead,
+	table tr,
+	table td{
+		display: block !important;
+		width: 100% !important;
+	}
+	table td{
+		position: relative;
+	}
+}
+
+@media (max-width: 479px){
+	dt, dd{
+		float: none;
+		width: auto;
+		margin-right: 0;
+	}
+	dd{
+		margin-left: 40px;
+	}
+}
