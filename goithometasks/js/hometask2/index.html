@@ -1,0 +1,37 @@
+<!Doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Test page</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	</head>
+	<body>
+	</body>
+	<script>
+		var page = {
+			pageWrapper: function(){
+				var wrapper = document.createElement('div');
+				wrapper.classList.add('container');
+				document.body.appendChild(wrapper);
+			},
+			pageHeading: function(){
+				var heading = document.createElement('h1');
+				heading.innerHTML = "Тест по программированию";
+				var container = document.querySelector('.container');
+				container.appendChild(heading);
+			},
+			question: function(){
+				var question = document.createElement('h2');
+				question.classList.add('test-question');
+				question.innerHTML = "Вопрос №";
+				var container = document.querySelector('.container');
+				container.appendChild(question);
+			},
+			pageTest: function(){
+				
+			}
+		}
+		page.pageWrapper();
+		page.pageHeading();
+	</script>
+</html>
