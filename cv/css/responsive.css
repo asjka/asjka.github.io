@@ -44,8 +44,21 @@
 	}
 	
 	header{
-		position: absolute;
-		top: -55px;
+		top: 0;
+		right: 0;
+		width: 100%;
+		height: 50px;
+		background: #666;
+	}
+	
+	.lang{
+		right: 60px;
+		top: 9px;
+	}
+	
+	nav{
+		top: 6px;
+		right: 10px;
 	}
 }
 
