@@ -298,9 +298,13 @@ h4.subtitle{
 	margin: 0 20px 30px;
 }
 
-.avatar{
-	margin: 0 0 30px;
+#avatar{
 	display: none;
+	padding: 20px;
+}
+
+#avatar .container{
+	margin: 0;
 }
 
 article h2{

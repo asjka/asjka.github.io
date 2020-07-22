@@ -16,7 +16,7 @@
 	.page-background{
 		background-image: url(../images/fields.jpg);
 	}
-	.avatar{
+	#avatar{
 		display: block;
 	}
 }
